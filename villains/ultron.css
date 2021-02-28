@@ -1,0 +1,97 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  .column {
+    flex: 70%;
+    padding: 0 10px;
+  }
+  .column img {
+    margin-top: 35%;
+    margin-left: 25px;
+    border-radius: 20px;
+  }
+  body{
+      background-image: url("https://wallpaperaccess.com/full/3691777.jpg");
+      background-repeat: repeat;
+      background-size: 100%;
+  }
+  .content {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: #00000048;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 30px;
+    font-size: 120%;
+    margin-top: 2.5%;
+  }
+  .learnmorecolor{
+      color: yellow;
+  }
+  .learnmorecolor:hover{
+    color: rgb(72, 255, 0);
+  }
+  .homepage{
+      color: rgb(255, 255, 255);
+      font-size: 200%;
+      
+      width: 40%;
+      margin-left: 29%;
+    }
+    .homepage:hover{
+        color: red;
+    }
+   
+  .center{
+      margin-left: 1%;
+  }
+  
+  h3{
+    font-family: Fantasy;
+    background-color: rgba(255, 255, 255, 0);
+    width: 16.1%;
+    margin-left: 39%;
+    margin-top: 0%;
+    color: #313131;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation: colorchange 20s infinite alternate;
+  }
+  @-webkit-keyframes colorchange {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+    10% {
+      color: #ff0000;
+    }
+    20% {
+      color: rgb(206, 23, 23);
+    }
+    30% {
+      color: rgb(250, 30, 30);
+    }
+    40% {
+      color: red;
+    }
+    50% {
+      color: #ff1f1f;
+    }
+    60% {
+      color: rgb(179, 0, 0);
+    }
+    70% {
+      color: #ff2727;
+    }
+    80% {
+      color: rgb(179, 28, 28);
+    }
+    90% {
+      color: #971818;
+    }
+    100% {
+      color: rgb(255, 0, 0);
+    }
+  }

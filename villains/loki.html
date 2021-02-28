@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOKI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0
+        }
+
+        .mySlides {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 400px;
+            position: relative;
+            margin-left: 345px;
+            margin-top: 35px;
+            box-shadow:  0 35px 55px 0 rgba(224, 207, 223, 0.7), 0 35px 55px 0 rgba(219, 202, 217, 0.7);
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin-left: 20px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px;
+            }
+        }
+
+    </style>
+    <link rel="stylesheet" href="loki.css">
+</head>
+
+<body>
+    
+    <center><h3>LOKI:GOD OF MISCHIEF</h3></center>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://wallpaperaccess.com/full/480655.jpg" style="width:100%" height="500px">
+            <div class="text">LOKI</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/788cf621-29e7-4712-bc47-7fb196445147/dds2ps5-dd33ba56-012d-4f13-b300-0994d77dbcc7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNzg4Y2Y2MjEtMjllNy00NzEyLWJjNDctN2ZiMTk2NDQ1MTQ3XC9kZHMycHM1LWRkMzNiYTU2LTAxMmQtNGYxMy1iMzAwLTA5OTRkNzdkYmNjNy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.LAiqPj3HBqq-yA8FcvGYBe8n7yYMuddZWJgb5irwFAI" style="width:100%" height="500px" width="600px">
+            <div class="text">LOKI</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://i.pinimg.com/originals/37/41/87/374187fed7a339fc7a5cd9b3183121e9.jpg" style="width:100%" height="500px">
+            <div class="text">LOKI</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="margin-left: 468px;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <div class="pok">
+   
+        <p style="text-align: justify;">
+          <strong>
+            Tom Hiddleston plays the character in MCU, Loki Laufeyson is the biological son of Laufey, the ruler of the Frost Giants in Jotunheim, who was abandoned and left to die shortly after his birth. Found by Odin, Loki was taken to Asgard and raised by him and Frigga as an Asgardian prince, along with Thor. Loki was given with command over the Chitauri army in order to conquer Earth, under the provision that Loki acquires the Tesseract for Thanos, but all of Loki's schemes were ultimately defeated by the Avengers. He appears in THOR(2011), THOR:THE DARK WORLD(2013),THOR:RAGNAROK(2017),THE AVENGERS(2012),AVENGERS:INFINITY WAR(2018).
+
+
+<br>
+<a href="https://marvelcinematicuniverse.fandom.com/wiki/Loki"><font size="6px"color="green">Read More</font></a>
+<br>
+<a href="../marvel.html"><font size="6px"color="green"> GO TO HOME </font></a>
+
+</p>
+</strong>  
+    </div>
+
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

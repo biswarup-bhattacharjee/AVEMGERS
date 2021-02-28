@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ebonymaw.css">
+    <title>EBONY MAW</title>
+</head>
+<body>
+    <!---NAME PART-->
+    <div class="name"><br>
+        <h2>EBONY MAW</h2>
+    </div>
+
+    <!---slider-->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="https://wallpapercave.com/wp/wp4361847.jpg" style="width:100%" height="500px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="https://images2.imgbox.com/ec/1a/e8mQMRGZ_o.jpg" style="width:100%" height="500px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="https://i.redd.it/fr0fbpkgzl111.jpg" style="width:100%" height="500px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="https://wallpapercave.com/wp/wp4361846.jpg" style="width:100%" height="500px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5/ 5</div>
+            <img src="https://i.ytimg.com/vi/YRZbPigOM1w/maxresdefault.jpg" style="width:100%" height="500px">
+            <div class="text"></div>
+        </div>
+
+       
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div class="harami" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+<br><br><br><br><br>
+
+
+
+<div class="roundpic">
+
+    <a href="https://images.wallpapersden.com/image/download/ebony-maw-in-avengers-infinity-war-2018_a2dobWiUmZqaraWkpJRnZmtlrWhtaWU.jpg">
+
+    <img src="https://static.wikia.nocookie.net/disney/images/0/0f/Infinity_War_Fathead_09.png/revision/latest/top-crop/width/360/height/450?cb=20180408195025" height="300px" width="290px"  style="border-radius: 50%;" >
+
+    </a>
+
+</div>
+
+
+<p id="rcorners">
+    <strong>
+        Ebony Maw was a member of the Black Order and an adoptive son of Thanos. Gifted with powers of telekinesis, Maw was deeply loyal to Thanos and gave warnings of his power across the galaxy while assisting in the search for the Infinity Stones. Having assisted with wiping out half the Asgardians, both Maw and Cull Obsidian were instructed to locate the Time Stone, leading to Maw capturing Doctor Strange and torturing him in order to obtain the Stone. However, Maw was killed when Iron Man ejected Maw from his ship into outer space before rescuing Strange. <br><br>
+    <a href="https://marvelcinematicuniverse.fandom.com/wiki/Ebony_Maw" target="_blank"><u style="font-size: 25px;">Read more</u></a><br><br>
+    <a href="../marvel.html"><u style="font-size: 35px;">Go to Home</u></a>
+    </strong>
+
+
+</p>
+    
+</body>
+</html>

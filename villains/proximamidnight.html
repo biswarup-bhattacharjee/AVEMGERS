@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROXIMA MIDNIGHT</title>
+    <link rel="stylesheet" href="proximamidnight.css">
+</head>
+<body>
+
+    
+
+
+    <figure>
+        <img src="https://i.pinimg.com/originals/d5/da/c0/d5dac053ceb15bf2506315455ee7bce2.jpg"  align="left" height="450px" width="300px">
+        
+        
+            <figcaption>
+                <b>PROXIMA MIDNIGHT</b>
+            </figcaption>
+    </figure>
+
+
+
+    <div class="pok">
+        <u><h1>PROXIMA MIDNIGHT</h1></u>
+        <strong>Proxima Midnight was Thanos' adoptive daughter and a member of the Black Order. She joined her father in his quest for the six Infinity Stones, initially attacked the Statesman with her brothers and helped to kill the Asgardians aboard and retrieve the Space Stone. She later attacked Vision and Scarlet Witch, almost killing them until the arrival of Captain America, Falcon and Black Widow. She was forced to flee when Widow wounded Corvus Glaive before returning to fight in the Battle of Wakanda. She fought and nearly killed both Okoye and Black Widow before Scarlet Witch used her telekinesis to throw her to the path of a Thresher, killing her.</strong>
+         
+        <br><br>
+        <a href="https://marvelcinematicuniverse.fandom.com/wiki/Proxima_Midnight"><u style="font-size: 25px;">Read more</u></a>
+        <br><br>
+        
+    </div>
+
+                    <!---------SLIDER PART------------>
+    <br><br><br><br><br><br><br><br>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://i.ytimg.com/vi/ieoF-OuioBI/hqdefault.jpg" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://64.media.tumblr.com/73cf262227973bfabd70fe8462e4289b/7499606548af0230-bd/s540x810/233630fc6f826e59767f7c862e9d4e15c6809292.gifv" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://img1.looper.com/img/gallery/why-infinity-wars-proxima-midnight-looks-so-familiar/intro-1551962052.jpg" style="width:100%" height="700px" >
+            <div class="text"></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <br><br>
+    <center><a href="../marvel.html" ><u class="redirect" style="font-size: 35px;">Go to Home Page</u></a></center>
+    <br><br>
+
+
+    
+        
+
+      
+
+       
+
+    
+</body>
+</html>

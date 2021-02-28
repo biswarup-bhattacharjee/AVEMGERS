@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="ronan.css">
+    </head>
+    <body>
+        <div class='center'>
+            <p class="awesome">RONAN</p>
+        </div>
+        
+        <br><br><br><br>
+        <!--SLIDER-->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://cdn.wallpapersafari.com/96/81/FXh1Vn.jpg" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/dd/Ronan_the_Accuser_%281995%29.png/revision/latest?cb=20190706131947" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://cl.buscafs.com/www.tomatazos.com/public/uploads/images/208969/208969_1140x516.jpg" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            
+    
+            
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        </div>
+        <br>
+    
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            
+         
+        </div>
+    
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+    
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+    
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+    
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+
+      <center><p id="rcorners">
+        <strong>
+            Ronan was a radical Kree warlord and former member of the Accusers. In 1995, during the Kree-Skrull War, Ronan worked with Yon-Rogg and the Starforce after the Ambush in Torfa to wipe out the last of the Skrull refugees. Ronan and the Accusers were then called to drop warheads on Earth to wipe out the remaining Skrull opposition there, but was forced to retreat when Captain Marvel launched a counter-offensive against the Kree, promising retribution.
+
+            <br><br>
+        <a href="https://marvelcinematicuniverse.fandom.com/wiki/Ronan_the_Accuser" target="_blank"><u style="color: rgb(51, 255, 0);font-size: 25px">Read more</u></a><br><br>
+        <a href="../marvel.html"><u class="last" style="font-size: 35px;">Go to Home</u></a>
+        </strong>
+      </p></center>
+
+
+      <div class="row">
+        <div class="column">
+    
+            <a href="https://i.pinimg.com/originals/f3/fc/15/f3fc15e287db939627c93d335f84751d.jpg">
+    
+                <img src="https://i.pinimg.com/originals/f3/fc/15/f3fc15e287db939627c93d335f84751d.jpg" height="350px" width="290px"  style="border-radius: 10%;" >
+    
+            </a>
+    
+            <a href="https://i.pinimg.com/originals/58/ec/a2/58eca23d81b4bc216a92bfb1794113aa.jpg">
+                
+                <img src="https://i.pinimg.com/originals/58/ec/a2/58eca23d81b4bc216a92bfb1794113aa.jpg"
+            height="300px" width="290px" style="border-radius: 10%;">
+            
+            </a>
+    
+            
+    
+            <a href="https://s1.zerochan.net/Ronan.The.Accuser.600.1889031.jpg">
+    
+                <img src="https://s1.zerochan.net/Ronan.The.Accuser.600.1889031.jpg"
+            height="300px" width="290px"  style="border-radius: 10%;">
+    
+            </a>
+    
+            <a href="https://i.pinimg.com/originals/23/a6/53/23a6535cab5ee46f31199d75d9fc182c.jpg">
+                
+                <img src="https://i.pinimg.com/originals/23/a6/53/23a6535cab5ee46f31199d75d9fc182c.jpg"
+            height="350px" width="290px"  style="border-radius: 10%;" >
+        
+            </a>
+    
+           
+    
+        </div>
+    </div>
+    <br><br><br>
+    
+    </body>
+</html>

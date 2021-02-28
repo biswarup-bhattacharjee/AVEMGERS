@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="thanos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+h1 {
+  font-size: 4em;
+  padding: 0;
+  color: white;
+  text-shadow: 0 0.1em 20px yellow, 0.05em -0.03em 0 rgb(240, 25, 36), 0.05em 0.005em 0 yellow, 0em 0.08em 0 yellow, 0.05em 0.08em 0 yellow, 0px -0.03em 0 yellow, -0.03em -0.03em 0 yellow, -0.03em 0.08em 0 yellow, -0.03em 0 0 rgb(168, 233, 116);
+}
+
+h3 {
+  font-size: 3em;
+  padding: 0;
+  color: white;
+   text-shadow: 0 0.1em 20px blue, 0.05em -0.03em rgb(240, 25, 36), 0.05em 0.005em 0 blue, 0em 0.08em 0 blue, 0.05em 0.08em 0 blue, 0px -0.03em 0 blue, -0.03em -0.03em 0 blue, -0.03em 0.08em 0 blue, -0.03em 0 0 rgb(168, 233, 116);
+}
+
+h1 span {
+  transform: scale(0.9);
+  display: inline-block;
+}
+h1 span:first-child {
+  -webkit-animation: bop 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+          animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+h1 span:last-child {
+  -webkit-animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+          animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+}
+
+@-webkit-keyframes bop {
+  0% {
+    transform: scale(0.8);
+  }
+  50%, 100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%, 100% {
+    transform: scale(1.1);
+  }
+}
+@-webkit-keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%, 100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
+@keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%, 100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
+.progress-container {
+   position:fixed;
+   top:0em;
+   z-index:1;
+  width: 100%;
+  height: 8px;
+  background: rgba(185, 233, 29, 0.027);
+}
+
+.progress-bar {
+  position:fixed;
+  height: 8px;
+  background: greenyellow;
+  width: 0%;
+}
+    </style>
+</head>
+<body style="background-image: url('https://www.teahub.io/photos/full/187-1870477_desktop-wallpaper-hd-galaxy.jpg');">
+<script src="thanos.js"></script>
+ 
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+      <center>
+        <div class="w3-container w3-center w3-animate-top">
+        <h1><span>THANOS</span><span>&nbsp BOSS OF UNIVERSE</span></h1>
+        </div>
+      </center>
+    <!-- Flickity HTML init -->
+    <div class="w3-container w3-center w3-animate-opacity">
+    <div class="position-slider">
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell god"><img class="god" src="https://bbts1.azureedge.net/images/p/full/2020/02/d508c668-e7da-42f0-815c-70ab9fb6e2b7.jpg" height="450px" width="450px"></div>
+        <div class="gallery-cell god"><img  class="god" src="https://comicvine1.cbsistatic.com/uploads/original/12/123129/6397660-2503056047-latest" height="450px" width="450px">
+        </div>
+        <div class="gallery-cell god"><img  class="god" src="http://cdn.shopify.com/s/files/1/2573/6178/products/QQ_20180507155428_1200x1200.jpg?v=1525833817" height="450px" width="450px">
+        </div>
+        <div class="gallery-cell god"><img class="god" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e76980d1-4092-4245-bbf9-b25fd8db1069/dd39bg2-116e922b-c482-48be-a71a-54171d65e231.jpg/v1/fill/w_1029,h_1299,q_75,strp/thanos___the_mad_titan_by_chaosemperor971_dd39bg2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjk5IiwicGF0aCI6IlwvZlwvZTc2OTgwZDEtNDA5Mi00MjQ1LWJiZjktYjI1ZmQ4ZGIxMDY5XC9kZDM5YmcyLTExNmU5MjJiLWM0ODItNDhiZS1hNzFhLTU0MTcxZDY1ZTIzMS5qcGciLCJ3aWR0aCI6Ijw9MTAyOSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IuyyFFMUrefjTgrJ7KbWZDu9DbH-fym2k6Jl4V-JBBY" height="450px" width="450px"></div>
+        <div class="gallery-cell god"><img class="god" src="https://www.screengeek.net/wp-content/uploads/2019/05/avengers-endgame-snap-thanos-mcu.jpg" height="450px" width="450px"></div>
+
+        <div class="gallery-cell god"><img class="god"
+            src="https://www.teahub.io/photos/full/75-754241_infinity-gauntlet-thanos-4k.jpg" height="450px"
+            width="450px"></div>
+    
+            <div class="gallery-cell god"><img class="god" src="https://wallpapercave.com/wp/wp4339229.jpg" height="450px"
+                    width="450px"></div>
+                <div class="gallery-cell"><img class="god" src="https://cdn.vox-cdn.com/thumbor/kQJPQQrTy8ywPX0rFAYMkQ8y0Ys=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/63678269/AppropriateAggressiveCanary_poster.0.jpg" height="450px"
+                        width="450px"></div>
+                
+                <div class="gallery-cell god"><img class="god" src="https://bsmedia.business-standard.com/_media/bs/img/article/2019-04/26/full/1556267595-8005.jpg" height="450px"
+                        width="450px"></div>
+                </div>
+                </div>
+                </div>
+       
+    </div>
+    </div>
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+  <div class="grid">
+    <div class="w3-container w3-center w3-animate-left">
+    <center>
+      <h3><u>ABOUT&nbsp&nbspTHANOS</u></h3>
+    </center>
+  </div>
+    <figure class="effect-layla">
+      <img src="http://www.nerdinfinite.com/wp-content/uploads/bfi_thumb/thanos-infinity-war-titan-battle-iron-man-spider-man-best-MCU-villain-npnco6nngzduu8omrv7p25sg3hto06tsutsdoqfym0.jpg" alt="img06" />
+      <figcaption>
+        <h2><span>THANOS</span></h2>
+        <p>I AM INEVATABLE</p>
+        <a href="https://marvelcinematicuniverse.fandom.com/wiki/Thanos">View more</a>
+      </figcaption>
+    </figure>
+   <strong><p style="text-align:justify;font-size:25px">Thanos is a mutant member of the race of superhumans known as the Titanian Eternals. The character possesses abilities common to the Eternals, but amplified to a higher degree through a combination of his mutant–Eternalheritage, amplification and power bestowed by the abstract entity, Death.Thanos's first appearance was in The Invincible Iron Man #55 (February 1973), featuring a story by Jim Starlin that was co-scripted by Mike Friedrich. The storyline from that issue continued through Captain Marvel  (bi-monthly: March 1973 – Jan. 1974), Marvel Feature(Nov. 1973), Daredevil  (Jan. 1974), and Avengers  (July 1974). He returned in an extended storyline that spanned Strange Tales  (Feb.–Aug. 1975), Warlock (Oct. 1975 – Jan.1976), Marvel Team Up(March 1977), and the 1977 Annuals for Avengers and Marvel Two-in-One (Thanos does not
+  actually appear until the end of Warlock ). He was also featured in a short backup story in Logan's Run (June 1977)and had a small role in the Death of Captain Marvel graphic novel (April 1982).</p></strong>
+  </div>
+
+    <div class="grid">
+      <div class="w3-container w3-center w3-animate-right">
+  <center>
+    <h3><span><u>INFINITY&nbsp&nbspGAUNLET</u></span></h3>
+  </center>
+  </div>
+      <strong>
+      <p style="text-align:justify;font-size:25px">In the Ultimate universe, there are a total of eight different Infinity Stones. Some of them were never called out by
+      name, but it's safe to assume that at least six of them were the standard set: Space, Time, Power, Reality, Mind, and
+      Soul.The Infinity Gauntlet was a powerful Dwarven-made Uru glove that was designed to channel the power of all six Infinity
+      Stones.The Infinity Gems (originally referred to as Soul Gems and later as Infinity Stones) are six gems appearing in Marvel
+      Comics. The six gems are the Mind, Power, Reality, Soul, Space, and Time Gems. (Some later storylines, crossovers, and
+      other media feature a seventh of some sort.).It's his accepted method for dealing with the problem. Before he acquired the Infinity Gauntlet and Stones, he had no
+      other option to achieve his goal - pre-Gauntlet Thanos couldn't double anyone's resources, so he was left with only one
+      option (pre-Gauntlet): kill half the population.</p></strong>
+              <figure class="effect-honey">
+                <img
+                  src="https://i.pinimg.com/originals/50/0c/48/500c48aea8e92a16b70c3d5496ae5821.jpg" 
+                  alt="img06" />
+                <figcaption>
+                  <h2><span><u>Infinity Gauntlet</u></span></h2>
+                  <p>GLOVE OF THANOS</p>
+                  <a href="https://marvel.fandom.com/wiki/Thanos_(Earth-616)">View more</a>
+                </figcaption>
+              </figure>
+                    <figure class="effect-ruby">
+                      <img
+                        src="https://static.wikia.nocookie.net/8f112ef0-98d1-4cd2-a4b3-45ab67b74771"
+                        alt="img06" height="400px" class="god"/>
+                      <figcaption>
+                        <h2><span>Infinity Stones</span></h2>
+                        <p>Mind, Power, Reality, Soul, Space, and Time Gems</p>
+                        <a href="https://marvel.fandom.com/wiki/Thanos_(Earth-616)">View more</a>
+                      </figcaption>
+                    </figure>
+                  
+    </div>
+      <div class="w3-container w3-center w3-animate-right">
+        <center>
+          <h3><span><u>MORE&nbsp&nbspIMAGES</u></span></h3>
+        </center>
+      </div>
+    <div class="row">
+        <div class="column">
+            <img src="https://www.hdwallpapers.in/download/avengers_infinity_war_infinity_gauntlet_thanos_4k_hd_movies-HD.jpg" style="width:100%" onclick="openModal();currentSlide(1)"
+                class="hover-shadow cursor brthanos" height="300px">
+        </div>
+        <div class="column">
+            <img src="https://www.pixel4k.com/wp-content/uploads/2019/07/thanos-new-art-2019_1562105881.jpg" style="width:100%" onclick="openModal();currentSlide(2)" height="300px"
+                class="hover-shadow cursor brthanos">
+        </div>
+        <div class="column">
+            <img src="https://www.hdwallpapers.in/download/thanos_with_infinity_gauntlet_4k-HD.jpg" style="width:100%" onclick="openModal();currentSlide(3)" height="300px"
+                class="hover-shadow cursor brthanos">
+        </div>
+        <div class="column">
+            <img src="https://i.pinimg.com/originals/c3/df/1e/c3df1ee142e4324433060c6e556e6501.jpg" style="width:100%" onclick="openModal();currentSlide(4)" height="300px"
+                class="hover-shadow cursor brthanos">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="https://www.hdwallpapers.in/download/avengers_infinity_war_infinity_gauntlet_thanos_4k_hd_movies-HD.jpg" style="width:100%" height="600px">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="https://www.pixel4k.com/wp-content/uploads/2019/07/thanos-new-art-2019_1562105881.jpg" style="width:100%" height="600px" >
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="https://www.hdwallpapers.in/download/thanos_with_infinity_gauntlet_4k-HD.jpg" style="width:100%" height="600px">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="https://i.pinimg.com/originals/c3/df/1e/c3df1ee142e4324433060c6e556e6501.jpg" style="width:100%" height="600px">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+            <div class="column">
+                <img class="demo cursor" src="https://www.hdwallpapers.in/download/avengers_infinity_war_infinity_gauntlet_thanos_4k_hd_movies-HD.jpg" style="width:100%" onclick="currentSlide(1)" height="300px"
+                    alt="GOD OF GALAXY">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://www.pixel4k.com/wp-content/uploads/2019/07/thanos-new-art-2019_1562105881.jpg" style="width:100%" height="300px"onclick="currentSlide(2)"
+                    alt="BOSS OF UNIVERSE">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://www.hdwallpapers.in/download/thanos_with_infinity_gauntlet_4k-HD.jpg" style="width:100%" onclick="currentSlide(3)" height="300px"
+                    alt="SUPER VILLAIN">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://i.pinimg.com/originals/c3/df/1e/c3df1ee142e4324433060c6e556e6501.jpg" style="width:100%" onclick="currentSlide(4)" height="300px"
+                    alt="THANOS">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+

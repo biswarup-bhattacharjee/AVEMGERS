@@ -1,0 +1,74 @@
+body{
+    
+    background-color:black;
+   }
+   h3 {
+       color:rgb(238, 222, 222);
+       font-size: 450%;
+       display: inline;
+     }
+     
+     
+     
+     .des{
+     
+       align: left;
+       margin-top:70px;
+       font-size: 180%;
+       padding: 10px;
+       font-style: italic;
+       background: #742c273b;
+       color:rgba(236, 235, 235, 0.952);
+       width: 60%; 
+     }
+     
+     figure {
+    
+       box-shadow: 0 35px 55px 0 rgba(165, 7, 15, 0.7), 0 35px 55px 0 rgba(199, 16, 62, 0.7);
+       float: right;
+       margin: 67px 0px 15px 15px;
+       margin-right: 30px;
+       width: 500px;
+     }
+     figure img {
+       width: 100%;
+     }
+ 
+    
+     figure:hover {
+       box-shadow: 0 50px 70px 0 rgba(65, 20, 7, 0.7), 0 50px 70px 0 rgba(78, 24, 15, 0.7);
+   }
+
+   .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    float: left;
+  }
+  .column {
+    flex: 70%;
+    padding: 0 10px;
+  }
+  .column img {
+    margin-top: 30px;
+    margin-left: 25px;
+    
+    border-radius: 20px;
+  }
+   .homepage{
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    
+    width: 40%;
+    margin-left: 29%;
+  }
+  .homepage:hover{
+      color: red;
+  }
+ 
+.center{
+    margin-left: 1%;
+}
+
+     
+     

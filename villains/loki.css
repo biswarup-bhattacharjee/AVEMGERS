@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://cdn.wallpapersafari.com/92/59/7GELwR.jpg");
+    background-repeat: repeat;
+    background-size: 110%;
+    
+}
+h3 {
+    color:rgb(236, 236, 227);
+    font-size: 450%;
+    display: inline;
+  }
+
+.pok{
+    margin-left: 65px;
+    margin-top: 170px;
+    position:relative;
+    font-size: 140%;
+    padding: 10px;
+    font-style: italic;
+    background: #343f493b;
+    color:rgb(255, 251, 251);
+    width: 90%; 
+  }
