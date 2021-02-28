@@ -1,0 +1,40 @@
+#films{
+    margin-top: 160px;
+    box-shadow:  0 65px 75px 0 rgba(175, 174, 90, 0.7), 0 75px 85px 0 rgba(168, 177, 87, 0.7);
+}
+.pok{
+    margin-top: 20px;
+    margin-left: 80px;
+    position:relative;
+    font-size: 180%;
+    font-style: italic;
+    background: #462b1549;
+    color:white;
+    width: 90%; 
+  }
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: grab;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rgba(238, 219, 44, 0.774);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px rgb(38, 43, 37);
+  }
+  .button:hover {
+    background-color:green;
+  }
+  .button:active {
+    background-color: #1b1b7ad8;
+    box-shadow: 0 5px #666;
+    transform: translatey(4px);
+  }
+  .tab {
+    margin-left: 700px;
+    margin-bottom: 5px;
+  }

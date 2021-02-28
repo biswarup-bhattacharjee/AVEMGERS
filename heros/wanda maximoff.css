@@ -1,0 +1,40 @@
+
+
+
+body{
+    background-image: url("https://images.hdqwalls.com/wallpapers/scarlet-witch-2020-4k-ze.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+body {
+    margin :0;
+    padding: 0; 
+  }
+  ul {
+    padding: 50px;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 420Px;
+  }
+  ul li {
+  list-style: none;
+  float:left;
+  font-size:60px;
+  transition:1.0s;/*ANIMATION DURATION*/
+  }
+  ul:hover li {
+    transform: rotateY(720deg);/*X & Y CHANGEABLE*//*+*//* ''deg ALSO CHANGABLE*/
+  }
+    
+.pok{
+    margin-left: 65px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 140%;
+    padding: 15px;
+    font-style: italic;
+    background: #503f3f71;
+    color:gold;
+    width: 90%; 
+  }

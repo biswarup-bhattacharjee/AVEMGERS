@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ironman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 700Px;
+            position: relative;
+            margin-left: 395px;
+            margin-top: 280px;
+            box-shadow:  0 35px 55px 0 rgba(95, 53, 69, 0.7), 0 35px 55px 0 rgba(95, 55, 80, 0.7);
+
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin-left: 20px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #3b0a0a;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px;
+            }
+        }
+
+    </style>
+    <link rel="stylesheet" href="ironman.css">
+</head>
+
+<body>
+   
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 10</div>
+            <img src="https://www.wallmesh.com/wp-content/uploads/2018/03/Iron-Man-Avengers-Infinity-War-HD-Wallpaper-1920x1080.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="gold" size="6px"> <b><i></i></b></font></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 10</div>
+            <img src="https://cdn.wallpapersafari.com/56/49/lSdYgw.jpg" style="width:100%" height="500px" width="600px"opacity=0.6>
+            <div class="text"><font color="plum"size="6px"><b><i></i> </b> </font></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 10</div>
+            <img src="https://wallpaperaccess.com/full/183141.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="black"size="6px"><b><i></i></b> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <img src="https://images.hdqwalls.com/download/tony-stark-iron-man-4k-7q-2560x1440.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="white"size="6px"><b><i></i></b> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="https://i.pinimg.com/originals/5c/84/9c/5c849ceedb79c6c4d5d76fafa69d5ba6.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="white"size="4px"><i>"My armor, it was never a distraction or a hobby, it was a cocoon. And now, I'm a changed man. You can take away my house, all my tricks and toys. But one thing you can't take away... I am Iron Man."</i> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img src="https://c4.wallpaperflare.com/wallpaper/991/239/794/tony-stark-iron-man-iron-man-3-glowing-wallpaper-preview.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="white"size="4px"><i>"J.A.R.V.I.S., sometimes you gotta run before you can walk."</i> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img src="https://wallup.net/wp-content/uploads/2016/01/190986-Avengers_Age_of_Ultron-Marvel_Comics-Iron_Man-748x499.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="white"size="6px"><b><i></i></b> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img src="https://i.pinimg.com/originals/8a/52/e9/8a52e915899afcae2dbfe1a8ce24fb3a.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="white"size="4px"><i>"That shield doesn't belong to you. You don't deserve it! My father made that shield!"</i> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img src="https://www.pixel4k.com/wp-content/uploads/2019/06/iron-man-avengers-infinity-war-suit-4k_1560533735.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="white"size="6px"><b><i></i></b> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img src="https://images.hdqwalls.com/wallpapers/iron-man-thanos-infinity-gauntlet-9u.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="white"size="6px"><b><i>"I am Iron Man."</i></b> </font></div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="margin-left:540px">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+    </div>
+    <div class="pok">
+   
+        <p style="text-align: justify;"><strong>
+            
+            Robert Downey Jr plays the character in Marvel Cinematic Universe as Anthony Edward "Tony" Stark, who was a billionaire industrialist, a founding member of the Avengers, and the former CEO of Stark Industries. A brash but brilliant inventor, Stark was self-described as a genius, billionaire, playboy, and philanthropist. With his great wealth and exceptional technical knowledge, Stark was one of the world's most powerful men following the deaths of his parents and enjoyed the playboy lifestyle for many years until he was kidnapped by the Ten Rings in Afghanistan, while demonstrating a fleet of Jericho missiles. With his life on the line, Stark created an armored suit which he used to escape his captors. Upon returning home, he utilized several more armors to use against terrorists, as well as Obadiah Stane who turned against Stark. Stark enjoyed the fame that came with his new secret identity and decided to share it with the world, publicly revealing himself as Iron Man. During the Battle of Earth, Stark sacrificed himself to eliminate Thanos and his armies, who traveled through time to collect the Infinity Stones, saving the universe from decimation, and leaving behind a legacy as one of Earth's most revered superheroes. He appears in IRONMAN(2008), IRONMAN2(2010), THE AVENGERS(2012), IRONMAN 3(2013), AVENGERS: AGE OF ULTRON(2014), CAPTAIN AMERICA: CIVIL WAR(2017), AVENGERS: INFINITY WAR(2018), AVENGERS: ENDGAME(2019).
+            <br>
+<a href="https://marvelcinematicuniverse.fandom.com/wiki/Iron_Man"><font size="6px"color="gold" size="5px">Read More</font></a>
+<br>
+<a href="ironman1.html"><font size="6px"color="gold">IRONMAN(2008,imdb rating:7.9,90%likes)</font></a> 
+<br>
+<a href="ironman 2.html"><font size="6px"color="gold">IRONMAN 2(2010,imdb rating:7,91%likes)</font></a> 
+<br>
+<a href="ironman 3.html"><font size="6px"color="gold">IRONMAN 3(2013,imdb rating:7.1,92%likes)</font></a> 
+
+<br>
+
+</strong></p>
+
+    </div>
+<!---ROUND IMAGES-->
+<div class="row">
+    <div class="column">
+
+        <a href="https://www.xtrafondos.com/wallpapers/vertical/iron-man-los-vengadores-4-7099.jpg">
+
+            <img src="https://www.xtrafondos.com/wallpapers/vertical/iron-man-los-vengadores-4-7099.jpg" height="300px" width="290px"  style="border-radius: 50%; box-shadow: 0 35px 45px 0 rgba(241, 7, 7, 0.2), 0 35px 45px 0 rgba(240, 8, 8, 0.19);" >
+
+        </a>
+
+        <a href="https://i.pinimg.com/originals/2b/b4/79/2bb479fed82eee88e12f76a0cc718355.jpg">
+            
+            <img src="https://i.pinimg.com/originals/2b/b4/79/2bb479fed82eee88e12f76a0cc718355.jpg"
+        height="300px" width="290px"  style="border-radius: 50%; box-shadow: 0 35px 45px 0 rgba(241, 7, 7, 0.2), 0 35px 45px 0 rgba(240, 8, 8, 0.19);" >
+    
+        </a>
+
+
+        <a href="https://i.pinimg.com/originals/0e/e3/9f/0ee39fa9917af87f1369cdd7e25e8fd6.jpg">
+
+            <img src="https://i.pinimg.com/originals/0e/e3/9f/0ee39fa9917af87f1369cdd7e25e8fd6.jpg"
+        height="300px" width="290px"  style="border-radius: 50%; box-shadow: 0 35px 45px 0 rgba(241, 7, 7, 0.2), 0 35px 45px 0 rgba(240, 8, 8, 0.19);">
+
+        </a>
+
+        <a href="https://i.ebayimg.com/images/g/9YQAAOSwsCddlELo/s-l400.jpg">
+            
+            <img src="https://i.ebayimg.com/images/g/9YQAAOSwsCddlELo/s-l400.jpg"
+        height="300px" width="290px" style="border-radius: 50%; box-shadow: 0 35px 45px 0 rgba(241, 7, 7, 0.2), 0 35px 45px 0 rgba(240, 8, 8, 0.19);">
+        
+        </a>
+
+    </div>
+</div>
+
+<div>
+    <a class="homepage" href="../marvel.html"><p style="text-align: center;"><strong>Go to Homepage</strong></p></a>
+</div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mariahil.css">
+    </head>
+    <body>
+        <div class='center'>
+            <p class="awesome">MARIA HILL</p>
+        </div>
+        
+        <br><br><br><br>
+        <!--SLIDER-->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="https://c4.wallpaperflare.com/wallpaper/956/735/801/movies-the-avengers-maria-hill-cobie-smulders-wallpaper-preview.jpg" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="https://fastly.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/mariahill1_0.jpg?offset-x=48&offset-y=0" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="https://wallup.net/wp-content/uploads/2016/05/02/51914-movies-The_Avengers-Maria_Hill-Cobie_Smulders-S.H.I.E.L.D..jpg" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="https://images7.alphacoders.com/673/thumb-1920-673850.jpg" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">5/ 5</div>
+                <img src="http://33.media.tumblr.com/10483055f5de05956328c27c011ad691/tumblr_nd55x7RFRp1qaho1po1_250.gif" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        </div>
+        <br>
+    
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+         
+        </div>
+    
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+    
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+    
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+    
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+
+      <center><p id="rcorners">
+        <strong>
+            Doctor Jane Foster is one of the world's leading astrophysicists, the world's foremost astronomer, the creator of the Foster Theory, as well as one of the premiere experts on Asgard. She found Thor after he was banished from Asgard and fell to Earth while she and her team were in New Mexico studying astronomical anomalies. She helped him in his mission to return to Asgard, eventually falling in love with him along the way. They were separated due to the temporary destruction of the Rainbow Bridge. During Loki's assault on Earth, S.H.I.E.L.D. kept her out of harms way by transferring her to a remote observatory where Loki could not find her.
+
+            She found out of Thor's return through the footage of the Battle of New York; this left Foster disappointed and angry that Thor didn't attempt contacting her. During the Convergence, she became host to the Aether and helped Thor defeat Malekith during the Battle of Greenwich. Once free of the Aether, Foster returned to work and Thor had decided to remain on Earth with her. Due to her work studying of the Convergence, Foster was being considered for the Noble Prize in astrophysics. Following the Ultron Offensive, Foster ended her relationship with Thor.
+            
+            In 2018, Foster was amongst the victims who died when Thanos wiped out half the life in the universe with the Infinity Stones. Five years later, the Avengers were successful in reversing the effects of the Snap, bringing back everyone who died, including Foster. <br><br>
+        <a href="https://marvelcinematicuniverse.fandom.com/wiki/Jane_Foster" target="_blank"><u style="color: rgb(51, 255, 0); font-size: 25px;">Read more</u></a><br><br>
+        <a href="../marvel.html"><u class="last" style="font-size: 35px;">Go to Home</u></a>
+        </strong>
+
+
+    </p></center>
+    
+    </body>
+</html>

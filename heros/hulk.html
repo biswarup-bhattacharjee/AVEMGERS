@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        font-family: Arial;
+        margin: 0;
+    }
+    body {
+                margin :0;
+                padding: 0; 
+            }
+            ul {
+                padding: 50px;
+                margin: 0;
+                position: absolute;
+                top: 0%;
+                left: 370px;
+            }
+            ul li {
+             list-style: none;
+             float:left;
+             font-size:60px;
+             transition:1.0s;/*ANIMATION DURATION*/
+            }
+            ul:hover li {
+                transform: rotateX(720deg);/*X & Y CHANGEABLE*//*+*//* ''deg ALSO CHANGABLE*/
+            }
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+  
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+        margin-top: 400px;
+        margin-left: 250px;
+        position: relative;
+        max-width: 1000px;
+        height: 300px;
+        box-shadow:  0 35px 55px 0 rgba(46, 131, 22, 0.7), 0 35px 55px 0 rgba(40, 156, 40, 0.7);
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+        cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 80%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+        float: left;
+        width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+</style>
+<head>
+    <link rel="stylesheet" href="hulk.css">
+</head>
+<body>
+
+    <ul>
+        <li><font color="green"><b>T</b></font></li>
+        <li><font color="green"><b>H</b></font></li>
+        <li><font color="green"><b>E</b></font></li>
+        <li><font color="black"><b>&nbsp</b></font></li>
+        <li><font color="blue"><b>I</b></font></li>
+        <li><font color="blue"><b>N</b></li></font>
+        <li><font color="blue"><b>C</b></li></font>
+        <li><font color="blue"><b>R</b></li></font>
+        <li><font color="blue"><b>E</b></li></font>
+        <li><font color="blue"><b>D</b></li></font>
+        <li><font color="blue"><b>I</b></li></font>
+        <li><font color="blue"><b>B</b></li></font>
+        <li><font color="blue"><b>L</b></li></font>
+        <li><font color="blue"><b>E</b></li></font>
+        <li><font color="green"><b>&nbsp</b></li></font>
+        <li><font color="green"><b>H</b></li></font>
+        <li><font color="green"><b>U</b></li></font>
+        <li><font color="green"><b>L</b></li></font>
+        <li><font color="green"><b>K</b></li></font>
+    </ul>
+
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="https://free4kwallpapers.com/uploads/originals/2015/12/16/the-hulk-bruce-banner-wallpaper.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="green" size="6px"> <b><i>HULK</i></b></font></div></center>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="https://images.hdqwalls.com/download/avengers-hulk-2560x1600.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="gold" size="6px"> <b><i>"That's my secret, Cap: I'm always angry."</i></b></font></div></center>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="https://wallpaperaccess.com/full/38432.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="green" size="6px" > "SMASH!!!!!"<b><i></i></b></font></center></div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="https://wallpapercave.com/wp/wp2616083.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="gold" size="6px"> <b><i>"You wanna know my secret, Agent Romanoff? You wanna know how I stay calm?"</i></b></font></div></center>
+
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="https://cdn.statically.io/img/www.iphone2lovely.com/wp-content/uploads/2019/05/Hulk-Avengers-Endgame-Wallpaper-HD.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="gold" size="6px"> <b><i>"Where in the world am I not a threat?"</i></b></font></div></center>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="https://4.bp.blogspot.com/-dnonmY0D3n8/XKWxkurMIxI/AAAAAAAABPc/rD3mjCJb9Jw-1fT-aTqTO65MHptWVjjdQCKgBGAs/w914/avengers-endgame-bruce-banner-uhdpaper.com-4K-80.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="gold" size="6px"> <b><i>"I put the brains and the brawn together and now look at me. Best of both worlds."</i></b></font></div></center>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="https://free4kwallpapers.com/uploads/originals/2015/12/16/the-hulk-bruce-banner-wallpaper.jpg" style="width:100%" onclick="currentSlide(1)"
+                     height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://images.hdqwalls.com/download/avengers-hulk-2560x1600.jpg" style="width:100%" onclick="currentSlide(2)"
+                 height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://wallpaperaccess.com/full/38432.jpg" style="width:100%" onclick="currentSlide(3)"
+                     height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://wallpapercave.com/wp/wp2616083.jpg" style="width:100%" onclick="currentSlide(4)" 
+                 height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://cdn.statically.io/img/www.iphone2lovely.com/wp-content/uploads/2019/05/Hulk-Avengers-Endgame-Wallpaper-HD.jpg" style="width:100%" onclick="currentSlide(5)"
+             height="100px" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://4.bp.blogspot.com/-dnonmY0D3n8/XKWxkurMIxI/AAAAAAAABPc/rD3mjCJb9Jw-1fT-aTqTO65MHptWVjjdQCKgBGAs/w914/avengers-endgame-bruce-banner-uhdpaper.com-4K-80.jpg" style="width:100%" onclick="currentSlide(6)"
+                     height="100px" >
+            </div>
+        </div>
+    </div>
+    <div class="pok">
+   
+        <p style="text-align: justify;">
+            <strong>
+           
+              Mark Ruffalo playes the character, doctor Robert Bruce Banner, M.D., Ph.D., is a renowned scientist and a founding member of the Avengers. Highly respected for his work in biochemistry, nuclear physics, and gamma radiation, he was commissioned by Thaddeus Ross to recreate the Super Soldier Serum which created Captain America, although Ross elected not to inform Banner what he was creating. However, when an exposure to high levels of gamma radiation instead of vita radiation went awry, the mild-mannered scientist had found that when angered, provoked or excited, he would transform into the huge, rage-fueled, nearly mindless creature known as Hulk. He appears in THE INCREDIBLE HULK(2008), AVENGERS(2012), AVENGERS:AGE OF ULTRON(2015), THOR:RAGNAROK(20017),AVENGERS:INFINITY WAR(2018), AVENGERS: ENDGAME(2019).
+<br>
+<a href="https://marvelcinematicuniverse.fandom.com/wiki/Hulk"><font size="6px"color="silver">Read More</font></a>
+<br>
+<a href="../marvel.html"><font size="6px"color="silver"> GO TO HOME </font></a>
+</strong></p>
+
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+</body>
+
+</html>

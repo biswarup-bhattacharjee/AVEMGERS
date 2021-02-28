@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>spider man</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+                margin :0;
+                padding: 0; 
+            }
+            ul {
+                padding: 50px;
+                margin: 0;
+                position: absolute;
+                top: 0%;
+                left: 500px;
+            }
+            ul li {
+             list-style: none;
+             float:left;
+             font-size:60px;
+             transition:1.0s;/*ANIMATION DURATION*/
+            }
+            ul:hover li {
+                transform: rotateX(360deg);/*X & Y CHANGEABLE*//*+*//* ''deg ALSO CHANGABLE*/
+            }
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+
+            margin-top: 12%;
+            box-shadow:  0 35px 55px 0 rgba(236, 179, 232, 0.7), 0 35px 55px 0 rgba(231, 155, 221, 0.7);
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin-left: 20px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px;
+            }
+        }
+
+    </style>
+    <link rel="stylesheet" href="spider man.css">
+</head>
+
+<body>
+    <center>
+    <ul>
+        <li><font color="red"><b>S</b></font></li>
+        <li><font color="red"><b>P</b</font></li>
+        <li><font color="red"><b>I</b></font></li>
+        <li><font color="red"><b>D</b></font></li>
+        <li><font color="red"><b>E</b></font></li>
+        <li><font color="red"><b>R</b></font></li>
+        <li>&nbsp</li>
+        <li><font color="blue"><b>M</b></li></font>
+        <li><font color="blue"><b>A</b></li></font>
+        <li><font color="blue"><b>N</b></li></font>
+
+    </ul>
+</center>
+    
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="https://i.pinimg.com/originals/c8/5b/f3/c85bf3867ef6ab3440b56b8bde150673.jpg" style="width:100%" height="500px"opacity=0.6>
+            <div class="text"><font color="gold" size="6px"> <b><i>PETER PARKER</i></b></font></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="https://i.pinimg.com/originals/df/02/8f/df028ff4986edce154e92b7903d95684.jpg" style="width:100%" height="500px" width="600px"opacity=0.6>
+            <div class="text"><font color="plum"size="6px"><b><i>"I'm just a friendly neighborhood Spider-Man."</i> </b> </font></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="https://i1.wp.com/reelnewsdaily.com/wp-content/uploads/who-do-you-really-think-should-play-spider-man.jpeg" style="width:100%" height="500pxopacity=0.6">
+            <div class="text"><font color="gold"size="6px"><b><i>"Oh, we're using our made-up names? Um. I'm Spider-Man then."</i></b> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="https://cdnb.artstation.com/p/assets/images/images/011/546/361/large/-asset.jpg?1530126676" style="width:100%" height="500pxopacity=0.6">
+            <div class="text"><font color="black"size="6px"><b><i></i></b> </font></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="https://wallpaperaccess.com/full/2492743.jpg" style="width:100%" height="500pxopacity=0.6">
+            <div class="text"><font color="yellow"size="6px"><b><i>"What, next mission?"</i></b> </font></div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="margin-left:630px">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <div class="pok">
+   
+        <p style="text-align: justify;"><strong>
+            
+           Tom Holland plays the character, Peter Benjamin Parker is a high school student who gained spider-like abilities, fighting crime across New York City as the alter ego Spider-Man, hoping someday, he will live up to his heroes in the Avengers. While Parker juggled all his continued superhero duties with the demands of his high-school life, he was approached by Tony Stark who recruited Spider-Man to join the Avengers Civil War.Later Tony recruited him in AVENGERS and made suit for him. He appears in CAPTAIN AMERICA:CIVIL WAR(2016), SPIDERMAN: HOMECOMING(2017), SPIDERMAN: FAR FROM HOME(2019).  
+   <br>         
+<a href="https://marvelcinematicuniverse.fandom.com/wiki/Spider-Man"><font size="6px"color="silver">Read More</font></a>
+<br>
+
+</strong></p>
+
+    </div>
+    <center>
+        <table id="spider">
+            <tr>
+                <th><font color="orange"> SPIDERMAN:HOMECOMING(2017,imdb:7.7,87% likes)</font></th> 
+                <th><font color="orange"> SPIDERMAN:FAR FROM HOME(2019,imdb:7.5,91% likes)</font></th> 
+
+            </tr>
+            <tr>
+                <td><a href="https://marvelcinematicuniverse.fandom.com/wiki/Spider-Man:_Homecoming"><img src="https://wallpaperaccess.com/full/243576.png" height="400px" width="700px"></a> </td> 
+
+                
+                
+                <td><a href="https://marvelcinematicuniverse.fandom.com/wiki/Spider-Man:_Far_From_Home"><img src="https://www.animatedtimes.com/wp-content/uploads/2019/05/images-22-1.jpeg" height="400px" width="700px"></a></td>
+           
+            </tr>
+           
+>
+        </table>
+        </center>
+        <br><br>
+        <center><button class="button"><a href="../marvel.html"><strong><font color="white">HOME</font></strong></a></button></center>
+        <br>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

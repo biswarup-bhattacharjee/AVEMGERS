@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="odin.css">
+    </head>
+    <body>
+        <div class='center'>
+            <p class="awesome">ODIN</p>
+        </div>
+        
+        <br><br><br><br>
+        <!--SLIDER-->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://wallpaperaccess.com/full/1765279.jpg" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://wallpaperaccess.com/full/3130356.jpg" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://www.thenewsfetcher.com/wp-content/uploads/2020/09/odin.png" style="width:100%" height="510px">
+                <div class="text"></div>
+            </div>
+    
+           
+    
+            
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        </div>
+        <br>
+    
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            
+         
+        </div>
+    
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+    
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+    
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+    
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+
+      <p id="rcorners" style="text-align: justify; ">
+        <strong>
+            Odin Borson was the former King of Asgard, protector of the Nine Realms, father of Hela and Thor, the adoptive father of Loki, and husband of Frigga. During the ancient times, he was worshiped as the god of wisdom by the inhabitants of Earth. Once the greatest warrior in all the Nine Realms, over the centuries he learned how to appreciate peace, eventually banishing his own daughter to Hel when she attempted to subjugate the entire universe. When Thor almost provoked a new war with the Frost Giants of Jotunheim, Odin stripped him of his powers and exiled him to Earth, leaving Loki to take the throne. Around this time, Odin unexpectedly fell into the Odinsleep, and when Thor had returned and saved the Frost Giants from extinction at the hands of Loki, who seemingly lost his life during the conflict, Odin realized that Thor had proven that he would be worthy enough to take the throne of Asgard.<br><br>
+        <a href="https://marvelcinematicuniverse.fandom.com/wiki/Odin" target="_blank"><u style="color: rgb(0, 0, 0); font-size: 30px;">Read more</u></a><br><br>
+        
+
+
+    </p>
+
+ <!--SLIDER 2-->   
+<div class="pok">
+    <div class="slideshow-container2">
+    
+        <div class="mySlides2 fade">
+            <div class="numbertext2">1 / 4</div>
+            <img src="https://c4.wallpaperflare.com/wallpaper/304/687/810/movies-anthony-hopkins-odin-gungnir-wallpaper-preview.jpg" style="width:100%" height="400px">
+            
+        </div>
+    
+        <div class="mySlides2 fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="https://i0.wp.com/marvelstudiosnews.com/wp-content/uploads/2018/02/CR_Krackle_Odin_v1_lg-e1518201942938.jpg?fit=1712%2C968&quality=80&strip=info&ssl=1" style="width:100%" height="400px">
+            
+        </div>
+    
+        <div class="mySlides2 fade">
+            <div class="numbertext2">3 / 4</div>
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-02-14-at-15-45-18-1581696139.png" style="width:100%" height="400px">
+            
+        </div>
+
+        <div class="mySlides2 fade">
+            <div class="numbertext2">4 / 4</div>
+            <img src="https://townsquare.media/site/442/files/2016/06/disney-marvel-thor-the-dark-world-odin-sir-anthony-hopkins.jpg?w=980&q=75" style="width:100%" height="400px">
+            
+        </div>
+    
+        <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+    
+    </div>
+
+    <br>
+    
+    <div class="dot2mover">
+        <span class="dot2" onclick="currentSlide2(1)"></span>
+        <span class="dot2" onclick="currentSlide2(2)"></span>
+        <span class="dot2" onclick="currentSlide2(3)"></span>
+        <span class="dot2" onclick="currentSlide2(4)"></span>
+    </div>
+    </div>
+    <script>
+        var slideIndex2 = 1;
+                    showSlides2(slideIndex2);
+
+                    function plusSlides2(n) {
+                        showSlides2(slideIndex2 += n);
+                    }
+
+                    function currentSlide2(n) {
+                        showSlides2(slideIndex2 = n);
+                    }
+
+                    function showSlides2(n) {
+                        var i;
+                        var slides2 = document.getElementsByClassName("mySlides2");
+                        var dots2 = document.getElementsByClassName("dot2");
+                        if (n > slides2.length) { slideIndex2 = 1 }
+                        if (n < 1) { slideIndex2 = slides2.length }
+                        for (i = 0; i < slides2.length; i++) {
+                            slides2[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots2.length; i++) {
+                            dots2[i].className = dots2[i].className.replace(" active", "");
+                        }
+                        slides2[slideIndex2 - 1].style.display = "block";
+                        dots2[slideIndex2 - 1].className += " active";
+                    }
+
+    </script>
+
+<a href="../marvel.html"><u class="last">Go to Home</u></a>
+</strong>
+    
+    </body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        font-family: Arial;
+        margin: 0;
+    }
+    body {
+                margin :0;
+                padding: 0; 
+            }
+            ul {
+                padding: 50px;
+                margin: 0;
+                position: absolute;
+                top: 0%;
+                left: 480px;
+            }
+            ul li {
+             list-style: none;
+             float:left;
+             font-size:60px;
+             transition:1.0s;/*ANIMATION DURATION*/
+            }
+            ul:hover li {
+                transform: rotateY(720deg);/*X & Y CHANGEABLE*//*+*//* ''deg ALSO CHANGABLE*/
+            }
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+  
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+        margin-top: 400px;
+        margin-left: 250px;
+        position: relative;
+        max-width: 1000px;
+        height: 300px;
+        box-shadow:  0 45px 65px 0 rgba(41, 28, 26, 0.7), 0 45px 65px 0 rgba(31, 21, 21, 0.685);
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+        cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 76%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+        float: left;
+        width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+</style>
+<head>
+    <title>black widow</title>
+    <link rel="stylesheet" href="natasha romanoff.css">
+</head>
+<body>
+
+    <ul>
+        <li><font color="white"><b>B</b></font></li>
+        <li><font color="black"><b>L</b></font></li>
+        <li><font color="white"><b>A</b></font></li>
+        <li><font color="black"><b>C</b></font></li>
+        <li><font color="white"><b>K</b></font></li>
+        <li>&nbsp</li>
+        <li><font color="blue"><b>W</b></li></font>
+        <li><font color="blue"><b>I</b></li></font>
+        <li><font color="blue"><b>D</b></li></font>
+        <li><font color="blue"><b>O</b></li></font>
+        <li><font color="blue"><b>W</b></li></font>
+    </ul>
+
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="https://cdn.wallpapersafari.com/33/12/uvz3dL.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="black" size="6px"> <b><i>BLACK WIDOW</i></b></font></div></center>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="https://wallpaperaccess.com/full/569470.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="black" size="6px"> <b><i>"It's really not that complicated. I've got red in my ledger, I'd like to wipe it out."</i></b></font></div></center>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="https://c4.wallpaperflare.com/wallpaper/107/28/923/the-avengers-avengers-age-of-ultron-superhero-symbols-wallpaper-preview.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="black" size="6px" > <b><i>NATASHA ROMANOVA</i></b></font></center></div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="https://www.hdwallpapers.in/download/black_widow_scarlett_johansson_captain_america_civil_war-1920x1080.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="black" size="6px"> <b><i>"How do we do this? As a team!"</i></b></font></div></center>
+
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="https://cutewallpaper.org/21/black-widow-hd-wallpapers/Black-Widow-Scarlett-Johansson-Avengers-Age-Of-Ultron-Full-.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="black" size="6px"> <b><i>"Let's finish the job."</i></b></font></div></center>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="https://wallpapercave.com/wp/wp4298108.jpg" style="width:100%" height="450px">
+            <div class="text"><center><font color="black" size="6px"> <b><i>"We don't want to kill you. But we will."</i></b></font></div></center>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="https://cdn.wallpapersafari.com/33/12/uvz3dL.jpg" style="width:100%" onclick="currentSlide(1)"
+                     height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://wallpaperaccess.com/full/569470.jpg" style="width:100%" onclick="currentSlide(2)"
+                 height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://c4.wallpaperflare.com/wallpaper/107/28/923/the-avengers-avengers-age-of-ultron-superhero-symbols-wallpaper-preview.jpg" style="width:100%" onclick="currentSlide(3)"
+                     height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://www.hdwallpapers.in/download/black_widow_scarlett_johansson_captain_america_civil_war-1920x1080.jpg" style="width:100%" onclick="currentSlide(4)" 
+                 height="100px">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://cutewallpaper.org/21/black-widow-hd-wallpapers/Black-Widow-Scarlett-Johansson-Avengers-Age-Of-Ultron-Full-.jpg" style="width:100%" onclick="currentSlide(5)"
+             height="100px" >
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="https://wallpapercave.com/wp/wp4298108.jpg" style="width:100%" onclick="currentSlide(6)"
+                     height="100px" >
+            </div>
+        </div>
+    </div>
+    <div class="pok">
+   
+        <p style="text-align: justify;">
+            <STRONG>
+           
+ Scarlett Johanson playes the character, gifted spy Natasha Romanoff is more than worthy of her moniker, Black Widow.
+
+Ruthless, efficient, and exceptionally skilled, Natasha strikes fear into the hearts of her enemies. Although she once operated on the side of evil, her innate heroism allowed her to overcome her upbringing and defect, setting her on a lifelong path of redemption. She was an important part of avengers. She is a frequent member of AVENGERS.Finally she sacrifices her life for the soul stone to make AVENGERS win.Scarlett Johanson playes the character and she appears in IRONMAN 2(2010),AVENGERS(2012),CAPTAIN AMERICA:WINTER SOLDIER(2014),AVENGERS:AGE OF ULTRON(2015),AVENGERS:INFINITY WAR(2018),AVERGERS:ENDGAME(2019), BLACK WIDOW(?).
+<br>
+<a href=""><font size="6px"color="white">Read More</font></a>
+<br>
+<a href="../marvel.html"><font size="6px"color="white"> GO TO HOME </font></a>
+</strong></p>
+
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.gallery {
+    display: flex;
+    padding: 0 0px;
+  }
+  figure {
+    width: 390px;
+    box-shadow: 0 30px 50px 0 rgba(255, 255, 255, 0.2), 0 15px 25px 0 rgba(255, 255, 255, 0.19);
+    float: left;
+    margin-left: 100px;
+    margin-top: 2%;
+    
+  }
+  figure img {
+    width: 100%;
+    
+  }
+  figure figcaption {
+    text-align: center;
+    padding: 35px 35px;
+    font-size: 30px;
+    color: lightcoral;
+    margin-top: 0px;
+    
+    
+  }
+  h1{
+    font-style: arial;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    
+  }
+  
+  body{
+    background-color: black;
+  }
+  button{
+    margin-bottom: 0;
+    
+  }
+  button:hover{
+    color: blue;
+    transform-style: preserve-3d;
+  }
+  .pok{
+    margin-left: 550px;
+    margin-top: 0px;
+    
+    font-size: 140%;
+    padding: 30px;
+   
+    
+    color: white;
+    width: 50%; 
+    text-align: justify;
+  }
+  u{
+    color: yellow;
+  }
+  
+  
+  

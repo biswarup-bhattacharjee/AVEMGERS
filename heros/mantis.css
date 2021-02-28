@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c7/Mantis_AIW_Profile.jpg/revision/latest?cb=20180518212335");
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+  h2 {
+    color:gold;
+    font-size: 450%;
+    display: inline;
+  }
+  
+  
+  .pok{
+    margin-left: 630px;
+    margin-top: 50px;
+    position:relative;
+    font-size: 160%;
+    padding: 10px;
+    font-style: italic;
+    background: rgb(0, 0, 0);
+    background: #8f89913b;
+    color:white;
+    width: 50%; 
+  }
+  .button {
+    margin-top: 90px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: grab;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rgb(29, 25, 25);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px rgb(38, 43, 37);
+  }
+  .button:hover {
+    background-color:green;
+  }
+  .button:active {
+    background-color: #3e3e41;
+    box-shadow: 0 5px #666;
+    transform: translatey(4px);
+  }
+  
+  figure {
+    width: 390px;
+    box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.527), 0 15px 25px 0 rgba(0, 0, 0, 0.397);
+    float: left;
+    margin-left: 100px;
+    margin-top: 3%;
+    
+  }
+  figure img {
+    width: 100%;
+    
+  }
+  figure figcaption {
+    text-align: center;
+    padding: 35px 35px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+    
+    
+  }

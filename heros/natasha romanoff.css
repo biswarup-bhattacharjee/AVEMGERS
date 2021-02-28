@@ -1,0 +1,20 @@
+
+
+
+body{
+    background-image: url("https://images2.alphacoders.com/106/thumb-1920-1060159.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+    
+.pok{
+    margin-left: 65px;
+    margin-top: 300px;
+    position:relative;
+    font-size: 160%;
+    padding: 15px;
+    font-style: italic;
+    background: #503f3f71;
+    color:rgb(243, 242, 234);
+    width: 90%; 
+  }

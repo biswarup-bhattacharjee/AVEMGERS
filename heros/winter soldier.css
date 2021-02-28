@@ -1,0 +1,28 @@
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp1998239.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+
+  .pood{
+    position: relative;
+    max-width: 70%;
+    margin: 0 auto;
+    top: 140px;
+  
+  }
+  .pood .guu{
+    position: absolute;
+    bottom: 0px;
+    font-size: 170%;
+    padding: 10px;
+    font-style: italic;
+    background: #42464605;
+    color: rgb(248, 239, 238);
+    width: 98%; 
+  }
+  
+  h1{
+    font-size: 210% ;
+  }

@@ -1,0 +1,94 @@
+body{
+    
+    background-image: url("https://wallpaperaccess.com/full/1925941.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    opacity:1;
+  }
+  .center{
+    margin-left: 2%;
+  }
+  
+  h3{
+  font-family: Fantasy;
+  display: inline;
+  width: 16.1%;
+  margin-left: 40%;
+  margin-top: 0%;
+  color: #313131;
+  font-size: 70px;
+  font-weight: bold;
+  position: absolute;
+  -webkit-animation: colorchange 20s infinite alternate;
+  }
+  @-webkit-keyframes colorchange {
+  0% {
+    color: green;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color:yellow;
+  }
+  30% {
+    color: orangered;
+  }
+  40% {
+    color: red;
+  }
+  50% {
+    color: #8e44ad;
+  }
+  60% {
+    color: yellow;
+  }
+  70% {
+    color: #8e44ad;
+  }
+  80% {
+    color: red;
+  }
+  90% {
+    color: #8e44ad;
+  }
+  100% {
+    color: blue;
+  }
+  }  
+    
+    
+    .des{
+      margin-top: 100px;
+      margin-left: 65px;
+      position:absolute;
+      font-size: 180%;
+      padding: 10px;
+      font-style: italic;
+      background: rgb(0, 0, 0);
+      background: #ec4b3f3b;
+      color:rgba(248, 244, 244, 0.952);
+      width: 90%; 
+    }
+    
+    figure {
+        margin-left: 150px;
+        margin-top: 50px;
+      width: 370px;
+      box-shadow: 0 35px 55px 0 rgba(238, 197, 61, 0.7), 0 35px 55px 0 rgba(238, 168, 37, 0.7);
+    }
+    figure img {
+      width: 100%;
+    }
+    figure figcaption {
+      text-align: center;
+      font-size: 60px;
+      color: rgb(245, 245, 245);
+      font-style: italic;
+      
+    }
+    figure:hover {
+      box-shadow: 0 50px 70px 0 rgba(226, 209, 209, 0.7), 0 50px 70px 0 rgba(224, 212, 212, 0.7);
+  }
+    
+    

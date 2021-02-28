@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("http://www.100hdwallpapers.com/wallpapers/4000x2250/war_machine_4k-other.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+  }
+  
+
+body {
+    margin : 0;
+    padding: 0; 
+}
+ul {
+    padding: 50px;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 33%;
+}
+ul li {
+ list-style: none;
+ float:left;
+ font-size: 60px;
+}
+.card {
+    margin-top: 12%;
+    margin-left: 75%;
+    height: 450px;
+    width: 170px;
+    background-color: rgba(168, 163, 172, 0.678);
+
+}
+.pok{
+    margin-top: 0%;
+    margin-left: 2%;
+    position:relative;
+    font-size: 160%;
+    font-style: italic;
+    background: #3042579c;
+    color:white;
+    width: 98%; 
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: grab;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:white;
+    background-color:rgb(233, 66, 16);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px rgb(38, 43, 37);
+  }
+  .button:hover {
+    background-color:rgba(21, 233, 21, 0.877);
+  }
+  .button:active {
+    background-color: #15155e8a;
+    box-shadow: 0 5px #666;
+    transform: translatey(4px);
+  }
+  

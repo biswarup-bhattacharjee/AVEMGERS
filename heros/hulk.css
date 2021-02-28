@@ -1,0 +1,21 @@
+
+
+
+body{
+    background-image: url("https://i.pinimg.com/originals/48/15/28/4815288bfe592cd9efa5343d31508894.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+
+.pok{
+    margin-left: 65px;
+    margin-top: 300px;
+    position:relative;
+    font-size: 180%;
+    padding: 15px;
+    font-style: italic;
+    background: #2d3d1f49;
+    color:rgb(247, 247, 252);
+    width: 90%; 
+  }

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="valkyre.css">
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0
+        }
+
+        .mySlides {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            overflow: hidden;
+            
+            margin-top: 31%;
+            
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            text-align: center;
+        }
+        
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class='center'>
+        <h3>VALKYRE</h3>
+    </div>
+
+    <div class="row">
+        <div class="column">
+
+            <a href="https://i.insider.com/5d35d60f36e03c0bb2178904?width=700">
+
+                <img src="https://i.insider.com/5d35d60f36e03c0bb2178904?width=700" height="300px" width="290px"  style="border-radius: 50%;" >
+
+            </a>
+
+            <a href="https://i.pinimg.com/originals/9d/1d/0f/9d1d0f506f69885d1c58a5a2a7f323ae.jpg">
+                
+                <img src="https://i.pinimg.com/originals/9d/1d/0f/9d1d0f506f69885d1c58a5a2a7f323ae.jpg"
+            height="300px" width="290px"  style="border-radius: 50%;" >
+        
+            </a>
+
+
+            <a href="https://i.pinimg.com/originals/36/b6/48/36b648dd64f3310a3cb0a5a724ff9b80.jpg">
+
+                <img src="https://i.pinimg.com/originals/36/b6/48/36b648dd64f3310a3cb0a5a724ff9b80.jpg"
+            height="300px" width="290px"  style="border-radius: 50%;">
+
+            </a>
+
+            <a href="https://media.wired.com/photos/59fcfe89f9c42b56d1c102c2/master/w_2560%2Cc_limit/Valkyrie-TA.jpg">
+                
+                <img src="https://media.wired.com/photos/59fcfe89f9c42b56d1c102c2/master/w_2560%2Cc_limit/Valkyrie-TA.jpg"
+            height="300px" width="290px" style="border-radius: 50%;">
+            
+            </a>
+
+        </div>
+    </div>
+
+
+
+    <!--PARAGRAPH-->
+    <div class="content">
+        <p style="text-align: justify;">
+            Brunnhilde[3] is the reigning sovereign of New Asgard, erstwhile leader to the fallen Valkyries; shield-maidens who swore to defend the throne. She resided on Sakaar as a bounty hunter designated Scrapper 142 after her defeat at the hands of Hela. Years into her self-imposed exile, Valkyrie found the Asgardian prince Thor and sold him to the Grandmaster, only to grow towards him when he told her of Hela's new invasion of Asgard. Joining the Revengers, Valkyrie escaped from Sakaar and assisted Thor to defeat Hela, witnessing the Ragnarök as a result before she then joined all of the remaining survivors traveling towards Earth, only for the Statesman to be attacked by the Black Order. She was one of the few survivors from Thanos' attack, helping lead the remaining Asgardians to safety before the Mad Titan destroyed the ship and killed the remaining forces, and ultimately survived the Snap.
+        <br><br><br>
+        <a href="https://marvelcinematicuniverse.fandom.com/wiki/Valkyrie"target="_blank" class="learnmorecolor" style="font-size: 25px;">Learn More</a>
+        </p>
+    </div>
+
+
+
+
+
+    <!--SLIDER-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="https://www.wallpaperup.com/uploads/wallpapers/2018/02/24/1210120/e766e602731bf67df47cfc84e45494b8-700.jpg" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="https://wallpapercave.com/wp/wp4142826.jpg" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="https://cdn.wallpapersafari.com/9/39/ZJmAEq.jpg" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="https://wallpapercave.com/wp/wp4142838.jpg" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5/ 6</div>
+            <img src="https://www.hdwallpapers.in/download/loki_movies_jeff_goldblum_mark_ruffalo_odin_tessa_thompson_thor_tom_hiddleston_valkyrie_4k_5k_hd_loki-5120x2880.jpg" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6/6</div>
+            <img src="https://www.hdwallpapers.in/download/loki_movies_tessa_thompson_tom_hiddleston_hd_loki-HD.jpg" style="width:100%" height="700px">
+            <div class="text"></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div class="harami" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+
+<div>
+    <a class="homepage" href="../marvel.html"><p style="text-align: center;">Go to Homepage</p></a>
+</div>
+
+</body>
+
+</html>

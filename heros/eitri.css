@@ -1,0 +1,75 @@
+.gallery {
+    display: flex;
+    padding: 0 0px;
+  }
+  figure {
+    width: 390px;
+    box-shadow: 0 30px 50px 0 rgba(255, 255, 255, 0.2), 0 15px 25px 0 rgba(255, 255, 255, 0.19);
+    float: left;
+    margin-left: 100px;
+    
+  }
+  figure img {
+    width: 100%;
+    
+  }
+  figure figcaption {
+    text-align: center;
+    padding: 35px 35px;
+    font-size: 30px;
+    color: lightcoral;
+    margin-top: 0px;
+    
+    
+  }
+  body {
+    margin :0;
+    padding: 0; 
+  }
+  ul {
+    padding: 50px;
+    margin-top:0px;
+    margin-left: 530px;
+    position: absolute;
+  
+  }
+  ul li {
+  list-style: none;
+  color: rgb(9, 217, 224);
+  float:left;
+  font-size:60px;
+  transition:1.0s;/*ANIMATION DURATION*/
+  }
+  ul:hover li {
+    transform: rotateX(720deg);/*X & Y CHANGEABLE*//*+*//* ''deg ALSO CHANGABLE*/
+  }
+  
+  body{
+    background-color: black;
+  }
+  button{
+    margin-bottom: 0;
+    
+  }
+  button:hover{
+    color: blue;
+    transform-style: preserve-3d;
+  }
+  .pok{
+    margin-left: 550px;
+    margin-top: 100px;
+    
+    font-size: 140%;
+    padding: 30px;
+   
+    
+    color: white;
+    width: 50%; 
+    text-align: justify;
+  }
+  u{
+    color: yellow;
+  }
+  
+  
+  

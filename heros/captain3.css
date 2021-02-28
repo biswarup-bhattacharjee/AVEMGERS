@@ -1,0 +1,42 @@
+body{
+    
+    background-image: url("https://i.pinimg.com/originals/3d/93/95/3d93958d312c642d81bda5857bf61bbf.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    opacity:1;
+  }
+  h3 {
+      color:gold;
+      font-size: 450%;
+      display: inline;
+    }
+    
+    
+    
+    .des{
+      margin-top: 350px;
+      margin-left: 65px;
+      position:absolute;
+      font-size: 180%;
+      padding: 10px;
+      font-style: italic;
+      background: rgb(0, 0, 0);
+      background: #ec4b3f3b;
+      color:rgba(247, 242, 242, 0.952);
+      width: 90%; 
+    }
+    
+    figure {
+        margin-left: 60px;
+      width: 370px;
+      box-shadow: 0 35px 55px 0 rgba(238, 197, 61, 0.7), 0 35px 55px 0 rgba(238, 168, 37, 0.7);
+    }
+    figure img {
+      width: 100%;
+    }
+
+    figure:hover {
+      box-shadow: 0 50px 70px 0 rgba(226, 209, 209, 0.7), 0 50px 70px 0 rgba(224, 212, 212, 0.7);
+  }
+    
+    

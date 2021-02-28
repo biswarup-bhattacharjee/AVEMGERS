@@ -1,0 +1,122 @@
+
+
+
+body{
+  background-image: url("https://wallpaperaccess.com/full/1109535.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+body {
+  margin :0;
+  padding: 0; 
+}
+ul {
+  padding: 50px;
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  left: 560Px;
+}
+ul li {
+list-style: none;
+float:left;
+font-size:60px;
+transition:1.0s;/*ANIMATION DURATION*/
+}
+ul:hover li {
+  transform: rotateX(720deg);/*X & Y CHANGEABLE*//*+*//* ''deg ALSO CHANGABLE*/
+}
+ 
+.pok{
+  margin-left: 65px;
+  margin-top: 10px;
+  position:relative;
+  font-size: 140%;
+  padding: 15px;
+  font-style: italic;
+  background: #503f3f71;
+  color:rgb(217, 230, 233);
+  width: 90%; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  float: left;
+}
+.column {
+  flex: 70%;
+  padding: 0 10px;
+}
+.column img {
+  margin-top: 30px;
+  margin-left: 25px;
+  
+  border-radius: 20px;
+}
+.homepage{
+  color: rgb(247, 231, 11);
+  font-size: 200%;
+  
+  width: 40%;
+  margin-left: 29%;
+}
+.homepage:hover{
+    color: red;
+}
+.center{
+  margin-left: 1%;
+}
+
+h3{
+font-family: Fantasy;
+display: inline;
+width: 16.1%;
+margin-top: 0%;
+margin-left: 36%;
+color: #313131;
+font-size: 920%;
+font-weight: bold;
+position: absolute;
+-webkit-animation: colorchange 20s infinite alternate;
+}
+@-webkit-keyframes colorchange {
+0% {
+  color: green;
+}
+10% {
+  color: #91da95;
+}
+20% {
+  color:rgb(9, 255, 0);
+}
+30% {
+  color: rgb(12, 70, 4);
+}
+40% {
+  color: rgb(41, 160, 77);
+}
+50% {
+  color: #07b332;
+}
+60% {
+  color: rgb(121, 194, 37);
+}
+70% {
+  color: #77c934;
+}
+80% {
+  color: rgb(11, 212, 101);
+}
+90% {
+  color: #83d179;
+}
+100% {
+  color: rgb(18, 216, 216);
+}
+}  
+.bal{
+  margin-top: 200px;
+  font-size: 320%;
+}

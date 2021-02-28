@@ -1,0 +1,84 @@
+body{
+  background-image: url("https://wallpaperaccess.com/full/408920.png");
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.pood{
+  position: relative;
+  max-width: 70%;
+  margin: 0 auto;
+  top: 90px;
+
+}
+.pood .guu{
+  position: absolute;
+  bottom: 0px;
+  font-size: 160%;
+  padding: 10px;
+  font-style: italic;
+  background: #443e0b3b;
+  color: yellow;
+  width: 98%; 
+}
+
+h1{
+  color: white;
+  font-size: 200% ;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: grab;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:rgb(158, 92, 17);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px rgb(38, 43, 37);
+}
+.button:hover {
+  background-color:green;
+}
+.button:active {
+  background-color: #0d0d6de3;
+  box-shadow: 0 5px #666;
+  transform: translatey(4px);
+}
+.tab {
+  margin-left: 700px;
+  margin-bottom: 5px;
+}
+#thor {
+  margin-top: 135px;
+  font-family:'Courier New, Courier, monospace, sans-serif';
+  border-collapse: collapse;
+  
+  width: 70%;
+}
+#thor td,
+#thor th {
+  border: 1px solid rgba(233, 171, 39, 0.883);
+  padding: 13px;
+  background-color:rgba(33, 32, 34, 0.883);
+  text-align: justify;
+  color:silver;
+  font-style: italic;
+  font-size: 100%;
+  opacity:0.9;
+}
+#thor tr:hover {
+  background-color:blue;
+
+  
+}
+#thor th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: justify;
+  background-color: #36aad8;
+  color: white;
+}

@@ -1,0 +1,65 @@
+.gallery {
+    display: flex;
+    padding: 0 0px;
+  }
+  figure {
+    width: 390px;
+    margin-top:0px;
+    box-shadow: 0 30px 50px 0 rgba(245, 237, 237, 0.2), 0 15px 25px 0 rgba(230, 225, 225, 0.19);
+    float: left;
+    margin-left: 100px;
+    
+  }
+  figure img {
+    width: 100%;
+    
+  }
+  figure figcaption {
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 50px;
+    color: rgb(245, 15, 7);
+    margin-top: 0px;
+    
+    
+  }
+
+  
+
+    
+body{
+    background-image: url("https://www.hdwallpapers.in/download/rocket_raccoon_guardians_of_the_galaxy_vol_2_4k-3840x2400.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+ul {
+    padding: 30px;
+    margin-top: 0px;
+    position: absolute;
+    top: 0px;
+    left: 550px;
+}
+ul li {
+ list-style: none;
+ float:left;
+ font-size:60px;
+}
+  .pok{
+    margin-left: 550px;
+    margin-top: 200px;
+    
+    font-size: 150%;
+    padding: 30px;
+   
+    
+    color:white;
+    width: 50%; 
+    text-align: justify;
+  }
+  u{
+    color: yellow;
+  }
+  
+  
+  

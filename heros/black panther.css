@@ -1,0 +1,18 @@
+
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/749/901/224/black-panther-chadwick-boseman-2018-poster-wallpaper-preview.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+    
+.pok{
+    margin-left: 65px;
+    margin-top: 10px;
+    position:relative;
+    font-size: 140%;
+    padding: 15px;
+    font-style: italic;
+    background: #503f3f71;
+    color:rgb(243, 243, 230);
+    width: 90%; 
+  }
