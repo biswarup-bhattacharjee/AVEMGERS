@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+}
+.kukur img {
+  opacity: 0.8;
+  margin-left: 0%;
+}
+h1 {
+  color: yellowgreen;
+  font-size: 550%;
+  display: inline;
+}
+h2 {
+  color: rgb(235, 66, 235);
+  font-size: 550%;
+  display: inline;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.column {
+  flex: 70%;
+  padding: 0 10px;
+}
+.column img {
+  margin-top: 5px;
+  margin-left: 55px;
+
+  border-radius: 20px;
+}
+.column img:hover {
+  margin-top: 5px;
+  margin-left: 55px;
+  opacity: 0.95;
+  border-radius: 20px;
+  box-shadow: 0 54px 48px 0 rgba(194, 54, 54, 0.2),
+    0 46px 60px 0 rgba(0, 0, 0, 0.19);
+  height: 280px;
+  width: 230px;
+}
+.kukur img:hover {
+  opacity: 0.8;
+  margin-left: 50px;
+  height: 120px;
+  width: 270px;
+}
